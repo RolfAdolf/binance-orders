@@ -40,7 +40,7 @@ SYMBOL='BTCUSDT'                            # or other pair you want
 ```
 
 You can get keys in the 
-[API-management site](# Get this keys in https://www.binance.com/en/my/settings/api-management)
+[API-management site](https://www.binance.com/en/my/settings/api-management)
 or [For testnet](https://testnet.binance.vision/key/generate).
 
 You need also create file with json-input. Name of this file should match the `PARAM_FILE` 
