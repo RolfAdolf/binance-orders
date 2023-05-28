@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "binance-orders"
+version = "0.1.0"
+description = "Create orders on the Binance exchange with data received from frontend."
+authors = ["Nadir Devrishev <n.devrishev@gmail.com>"]
+readme = "README.md"
+packages = [{include = "binance_orders"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pydantic = {extras = ["dotenv"], version = "^1.10.8"}
+numpy = "^1.24.3"
+binance-connector = "^3.0.0"
+pytest = "^7.3.1"
+pytest-cov = "^4.1.0"
+black = "^23.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
