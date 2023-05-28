@@ -52,7 +52,8 @@ parameter in `.env`-file of the project:
 Both files should be located in the root project directory (`binance-orders/`).
 
 If you need to run the tests, you need to specify these files similarly 
-and place them to the `./tests` directory.
+and place them to the `./tests` directory 
+(`./tests/.env_test` and `./tests/test_params.json`).
 It is recommended to use a test platform (`testnet.binance.vision`) for tests.
 
 
