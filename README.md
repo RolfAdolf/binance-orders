@@ -1,5 +1,8 @@
 # Binance orders
 
+This project implements the creation of orders on the Binance 
+platform using official 
+Binance connectors to make requests to the site API.
 ## Setup
 
 To install all dependencies you can use `poetry`. If you need `pip`-installation you can check
